@@ -1,6 +1,10 @@
 #include <iostream>
+#include <Windows.h>
+using namespace std;
 
 int main() {
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
     std::cout << "Продам автомобіль.\n\n"
         "Марка: Toyota Camry\n"
         "Рік випуску: 2018\n"
